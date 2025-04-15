@@ -13,7 +13,7 @@ async function hola(town) {
     weatherResult.appendChild(cityName);
 
     const icon = data.currentConditions.icon;
-    const iconUrl = `imgs/${icon}.png`;
+    const iconUrl = `/imgs/${icon}.png`;
     const img = document.createElement("img");
     img.src = iconUrl;
     img.alt = "Weather Icon";
